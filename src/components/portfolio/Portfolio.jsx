@@ -35,8 +35,8 @@ const Portfolio = () => {
       description:
         "ToDoApp provides an organized way to manage daily activities with a clean and minimal UI.",
       technologies: "HTML | CSS | JavaScript",
-      link: "https://fs-code-task-two.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/FS-Code-Task",
+      link: "https://to-do-app-delta-blond-66.vercel.app/",
+      github: "https://github.com/Chet4nSingh/ToDoApp",
     },
   ];
 

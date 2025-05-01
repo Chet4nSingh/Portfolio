@@ -3,7 +3,6 @@ import './contact.css';
 import React, { useRef, useState } from 'react';
 
 import { MdOutlineEmail } from 'react-icons/md';
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
@@ -11,22 +10,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
-    emailjs
-      .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
-        formRef.current,
-        'X7K7ebhIeOy3YwHki'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
     e.target.reset();
   };
   return (
