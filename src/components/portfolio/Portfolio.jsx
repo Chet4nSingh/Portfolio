@@ -1,11 +1,8 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/WeatherSync.png";
-import IMG2 from "../../assets/reservation-form.png";
-// import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/BakeLush.png";
-// import IMG5 from "../../assets/Jokes Project.jpg";
-// import IMG6 from "../../assets/Project4.jpg";
+import IMG3 from "../../assets/ToDoApp.png";
+import IMG2 from "../../assets/BakeLush.png";
 import React from "react";
 
 //Portfolio function
@@ -16,7 +13,7 @@ const Portfolio = () => {
       title: "WeatherSync",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
+        "WeatherSync is a weather visualization web app which offers real-time weather updates focusing on an intuitive and responsive user experience.",
       technologies: "React Js | Tailwind CSS | Framer",
       link: "https://weathersync-sage.vercel.app/",
       github: "https://github.com/Chet4nSingh",
@@ -24,52 +21,23 @@ const Portfolio = () => {
     {
       id: 2,
       title: "BakeLush",
-      img: IMG4,
+      img: IMG2,
       description:
-        "A personal website assembled for a lawyer. Firebase is the basis of the website assembled as a full stack",
+        "Bakelush is a minimalist, responsive cake-ordering website for a seamless user experience.",
       technologies: "React Js | Tailwind CSS | Context API",
       link: "https://bakelush.vercel.app/",
       github: "https://github.com/Chet4nSingh",
     },
     {
       id: 3,
-      title: "Hospital reservation form",
-      img: IMG2,
-      description: "A booking website for doctor's appointments at the hospital. The website is mainly functionally developed with JavaScript",
+      title: "ToDoApp",
+      img: IMG3,
+      description:
+        "ToDoApp provides an organized way to manage daily activities with a clean and minimal UI.",
       technologies: "HTML | CSS | JavaScript",
       link: "https://fs-code-task-two.vercel.app/",
       github: "https://github.com/Rasif-Taghizada/FS-Code-Task",
     },
-    // {
-    //   id: 4,
-    //   title: "Startup Landing Page",
-    //   img: IMG3,
-    //   description:
-    //     "A dedicated, standalone web page built for specific campaigns and target audiences.",
-    //   technologies: "Html | CSS | JavaScript | Next Js",
-    //   link: "https://alpha-agency-project.vercel.app/",
-    //   github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Jokes Project with Typescript",
-    //   img: IMG5,
-    //   description:
-    //     "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-    //   technologies: "Html | Styled-components | Typescript",
-    //   link: "https://jokes-project.vercel.app/",
-    //   github: "https://github.com/Rasif-Taghizada/Joke-App",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Fs Poster Website",
-    //   img: IMG6,
-    //   description:
-    //     "Real-world group project which is still in progress and will provide educational platform for future young developers",
-    //   technologies: "Html | Scss | Javascript",
-    //   link: "https://fs-poster-project.vercel.app/",
-    //   github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
-    // },
   ];
 
   return (
